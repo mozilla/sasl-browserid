@@ -90,7 +90,8 @@ int create_session(const sasl_utils_t *utils, const char *assertion, const char 
 	char email_esc[(strlen(email) * 2) + 1];
 	char *insert_email = "INSERT INTO browserid_session (digest, email) "
 			     "VALUES (MD5('%s'), '%s')";
-	char insert_email_esc[((strlen(assertion) + strlen(email)) * 2) + 1];
+	char insert_email_esc[((strlen(assertion) + strlen(email)) * 2) +
+                                strlen(insert_email) + 1];
 	int rv = 0;
 
 	conn = _connect(utils);

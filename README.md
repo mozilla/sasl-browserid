@@ -14,7 +14,8 @@ This project aims to provide a plugin written in C for the popular CMU Cyrus SAS
 * ??? Tell us other use cases!
 
 ## Status ##
-Early stages of deployment within Mozilla.
+This was successfully used in Production on a Mozilla website, but that site has 
+moved off LDAP, so no active use within Mozilla currently.
 
 ## Security Notes ##
 

@@ -19,9 +19,7 @@ moved off LDAP, so no active use within Mozilla currently.
 
 ## Security Notes ##
 
-1. Contact us before using in a production system.
-
-2. Make sure the client and server applications recognize and 
+Make sure the client and server applications recognize and 
 [block unknown email addresses](docs/security_block_unknown_email.md)!
 
 ## Quick Start ##

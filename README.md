@@ -22,7 +22,7 @@ moved off LDAP, so no active use within Mozilla currently.
 Make sure the client and server applications recognize and 
 [block unknown email addresses](docs/security_block_unknown_email.md)!
 
-## Quick Start ##
+## Optional: Quick Start ##
 
     vagrant up
     vagrant ssh
